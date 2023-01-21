@@ -1,38 +1,57 @@
-.App {
+.logo{
+height: 40px;
+width: 40px;
+}
+
+.ingForm {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .ingForminput{
+margin:10px;
+padding: 5px;
+width: 400px;
+ }
+
+ 
+.ingForm button {
+margin: 10px;
+width: 13%; 
+border-radius: 15px; }
+
+.button:hover{
+    cursor: pointer;
+    background-color: steelblue;
+    color: aliceblue;
+opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.repiceCss{
+    text-align: center;
+    padding: 10px;
+    margin:10px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.repiceCss img {
+    height: 200px;
+    width:18rem;
 }
+.widthcard{
+    width: 35%;
+    float:left;
+    
+    padding: 10px;
+    margin:10px;
+}
+h1{text-align: center;}
+.widthcarding{
+    width: 20%;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+}
+.ingCss img{
+    width: 100px;
+    height: 100px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
